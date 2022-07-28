@@ -1,0 +1,24 @@
+name: VehiclePickup
+version: '${project.version}'
+main: space.sanc.vehiclepickup.VehiclePickupPlugin
+api-version: 1.19
+prefix: VP
+authors: [ Sancires ]
+description: Automatically pickup vehicles after exiting
+website: sanc.space
+
+permissions:
+  vehiclepickup:
+    minecartpickup:
+      description: Automatically pick up minecarts on exit
+      default: true
+    boatpickup:
+      description: Automatically pick up boats on exit
+      default: true
+    minecartbypass:
+      description: Bypass automatic minecart pickup
+      default: false
+    boatbypass:
+      description: Bypass automatic boat pickup
+      default: false
+
